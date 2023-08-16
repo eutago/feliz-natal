@@ -12,6 +12,9 @@ html,
 body {
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
+}
+
+.primary-section {
   background-color: #f7c7b9;
 }
 
@@ -55,7 +58,7 @@ header {
   color: #161212;
 }
 
-main {
+.main-1 {
   height: calc(650px - 80px);
   display: flex;
   justify-content: space-between;
@@ -97,4 +100,46 @@ main {
   line-height: 1.5rem;
   font-weight: 600;
   color: #f9f9f9;
+}
+
+.second-section {
+  background-color: #f9f9f9;
+}
+
+.main-2 {
+  height: 570px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.accessory-text {
+  text-align: center;
+  width: 480px;
+}
+
+.accessory-text > .title {
+  margin-bottom: 1rem;
+}
+
+.accessories {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  text-align: center;
+}
+
+.accessory > p {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  color: #161212;
+  margin-bottom: 1rem;
+}
+
+.accessory > small {
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: #8d8d8d;
 }
