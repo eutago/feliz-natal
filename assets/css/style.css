@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  text-decoration: none;
+}
+
+html,
+body {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7c7b9;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  gap: 1rem;
+}
+
+.logo > h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2rem;
+  color: #161212;
+}
+
+.nav-bar {
+  list-style: none;
+  display: flex;
+  gap: 2.5rem;
+}
+
+.nav-item {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.nav-link {
+  color: #161212;
+}
+
+main {
+  height: calc(650px - 80px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-area {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  color: #161212;
+}
+
+.description {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #404040;
+}
+
+.donation-button {
+  width: 15.65rem;
+  border-radius: 0.5rem;
+  padding: 0.75rem 2rem 0.75rem 2rem;
+  background-color: #da2535;
+  display: flex;
+  gap: 0.625rem;
+  cursor: pointer;
+}
+
+.donation-button > p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+  color: #f9f9f9;
+}
