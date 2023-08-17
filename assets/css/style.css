@@ -143,3 +143,42 @@ header {
   line-height: 1.5rem;
   color: #8d8d8d;
 }
+
+.main-3 {
+  height: 570px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-3 > .text-area {
+  width: 460px;
+}
+
+footer {
+  background-color: #f9f9f9;
+  height: 140px;
+}
+
+footer > .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+}
+
+footer ul li {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(218, 37, 53, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
